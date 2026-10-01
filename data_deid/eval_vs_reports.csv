@@ -1,0 +1,17 @@
+finding,n_pos,n_neg,auroc,sens,spec,nv_labels
+atrophy,57,2,1.0,0.895,1.0,cerebral_atrophy
+hydrocephalus,25,175,0.96,0.96,0.749,obstructive_hydrocephalus|ventriculomegaly
+ivh,9,199,0.926,0.556,0.93,intraventricular_hemorrhage
+iph,6,206,0.92,0.833,0.85,intraparenchymal_hemorrhage
+mass_effect,36,234,0.857,0.639,0.842,brain_mass_effect
+sah,18,199,0.827,0.611,0.894,aneurysmal_subarachnoid_hemorrhage|traumatic_subarachnoid_hemorrhage
+any_ich,61,250,0.794,0.738,0.652,intracranial_hemorrhage|intraparenchymal_hemorrhage|intraventricular_hemorrhage|acute_subdural_hematoma|subacute_chronic_subdural_hematoma|epidural_hematoma|aneurysmal_subarachnoid_hemorrhage|traumatic_subarachnoid_hemorrhage
+acute_infarct,59,170,0.785,0.864,0.553,acute_ischemic_stroke
+edema,23,194,0.762,0.565,0.825,cerebral_edema
+sdh,8,218,0.756,0.5,0.89,acute_subdural_hematoma|subacute_chronic_subdural_hematoma
+mass_tumor,15,40,0.727,1.0,0.325,intra_axial_brain_tumor|extra_axial_brain_tumor|posterior_fossa_tumors|pituitary_tumor|head_neck_tumor|skull_bone_tumor|orbital_tumor|pineal_tumor|spine_tumor
+midline_shift,6,266,0.71,0.5,0.861,midline_shift
+edh,1,200,0.635,0.0,0.805,epidural_hematoma
+fracture,6,26,0.135,0.0,0.808,displaced_skull_fracture|nondisplaced_skull_fracture|skull_base_fracture
+contusion,0,201,NA,NA,0.905,brain_contusion
+chronic_ischemic,106,0,NA,0.774,NA,small_vessel_ischemic_disease
